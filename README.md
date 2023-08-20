@@ -1,10 +1,47 @@
-This repository contains code for data extraction from LinkedIn 
+This repository contains code for data extraction from LinkedIn.
 It has 3 parts - 
 1. Job hyperlinks extraction: Data_Scrap_Linkedin-Product_Analyst_code_1
 2. Extract data from job hyperlinks: Data_Scrap_Linkedin_Hyperlink-code_2
 3. Data Analysis: Analysis_Job_Product_Analytics_Linkedin
 
-Insights from Product Analyst Job Data Extraction.
+Project Summary: Enhancing LinkedIn Profile and Resume with Data Analysis
+
+Objective: Improve LinkedIn skills section and resume using insights gained from analyzing product analyst job postings on LinkedIn.
+
+Data Gathering:
+
+Utilized Selenium for web scraping to gather job posting data from LinkedIn.
+Extracted job details, skills requirements, contact information, and other relevant data using BeautifulSoup.
+Collected URLs of job postings for further analysis.
+
+Data Cleaning:
+
+Processed and cleaned the extracted data to prepare it for analysis.
+Created functions to tokenize and clean text data, remove stopwords, and filter relevant information.
+
+Data Analysis:
+Identified common skills required for product analyst roles by analyzing skills listed in job descriptions.
+Identified skills that candidates often lacked compared to the required skills.
+Extracted lower and upper salary ranges from job postings.
+Analyzed common bigrams (word pairs) in job descriptions to identify recurring patterns.
+
+Visualization:
+Used Matplotlib to create histograms and bar plots for salary distribution and skill insights.
+Visualized the distribution of salary ranges for full-time product analyst jobs.
+Created bar plots to showcase the most common skills and bigrams in job descriptions.
+
+Outcomes:
+Gained insights into the most sought-after skills for product analyst roles.
+Identified skills candidates commonly lacked, helping to focus skill improvement efforts.
+Determined salary ranges for product analyst jobs, aiding negotiation and expectation-setting.
+Revealed recurring word pairs in job descriptions to inform resume and LinkedIn profile content.
+
+Impact:
+Enhanced my LinkedIn profile by incorporating relevant skills from the analysis.
+Improved my resume by tailoring it to match the skills and requirements identified in job postings.
+
+
+Sample Insights from Product Analyst Job Data Extraction.
 
 Insight 1 - 
 Communication is the most sought out skill.
