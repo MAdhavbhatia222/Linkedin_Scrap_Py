@@ -10,35 +10,41 @@ Objective: Improve LinkedIn skills section and resume using insights gained from
 
 Data Gathering:
 
-Utilized Selenium for web scraping to gather job posting data from LinkedIn.
-Extracted job details, skills requirements, contact information, and other relevant data using BeautifulSoup.
-Collected URLs of job postings for further analysis.
+1. Utilized Selenium for web scraping to gather job posting data from LinkedIn.
+2. Extracted job details, skills requirements, contact information, and other relevant data using BeautifulSoup.
+3. Collected URLs of job postings for further analysis.
 
 Data Cleaning:
 
-Processed and cleaned the extracted data to prepare it for analysis.
-Created functions to tokenize and clean text data, remove stopwords, and filter relevant information.
+4. Processed and cleaned the extracted data to prepare it for analysis.
+5. Created functions to tokenize and clean text data, remove stopwords, and filter relevant information.
 
 Data Analysis:
-Identified common skills required for product analyst roles by analyzing skills listed in job descriptions.
-Identified skills that candidates often lacked compared to the required skills.
-Extracted lower and upper salary ranges from job postings.
-Analyzed common bigrams (word pairs) in job descriptions to identify recurring patterns.
+
+6. Identified common skills required for product analyst roles by analyzing skills listed in job descriptions.
+7. Identified skills that candidates often lacked compared to the required skills.
+8. Extracted lower and upper salary ranges from job postings.
+9. Analyzed common bigrams (word pairs) in job descriptions to identify recurring patterns.
 
 Visualization:
-Used Matplotlib to create histograms and bar plots for salary distribution and skill insights.
-Visualized the distribution of salary ranges for full-time product analyst jobs.
-Created bar plots to showcase the most common skills and bigrams in job descriptions.
+
+10. Used Matplotlib to create histograms and bar plots for salary distribution and skill insights.
+11. Visualized the distribution of salary ranges for full-time product analyst jobs.
+12. Created bar plots to showcase the most common skills and bigrams in job descriptions. 
+
+
+
+
 
 Outcomes:
-Gained insights into the most sought-after skills for product analyst roles.
-Identified skills candidates commonly lacked, helping to focus skill improvement efforts.
-Determined salary ranges for product analyst jobs, aiding negotiation and expectation-setting.
-Revealed recurring word pairs in job descriptions to inform resume and LinkedIn profile content.
+1. Gained insights into the most sought-after skills for product analyst roles.
+2. Identified skills candidates commonly lacked, helping to focus skill improvement efforts.
+3. Determined salary ranges for product analyst jobs, aiding negotiation and expectation-setting.
+4. Revealed recurring word pairs in job descriptions to inform resume and LinkedIn profile content.
 
 Impact:
-Enhanced my LinkedIn profile by incorporating relevant skills from the analysis.
-Improved my resume by tailoring it to match the skills and requirements identified in job postings.
+1. Enhanced my LinkedIn profile by incorporating relevant skills from the analysis.
+2. Improved my resume by tailoring it to match the skills and requirements identified in job postings.
 
 
 Sample Insights from Product Analyst Job Data Extraction.
